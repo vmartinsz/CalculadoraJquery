@@ -10,27 +10,27 @@ AC de desenvolvimento de uma simples Calculadora criada em Jquery.
 
 #### 1º Passo
 
-```http
+```bash
   git clone https://github.com/vmartinsz/CalculadoraJquery.git
-```
+
 
 #### 2º Passo
 
-```http
+```bash
   cd CalculadoraJquery
-```
+
 
 #### 3º Passo
 
-```http
+```bash
   docker build -t meu_app_flask .
-```
+
 
 #### 4º Passo
 
-```http
+```bash
   docker run -p 5000:5000 meu_app_flask
-```
+  
 ## Autores
 
 - [@vmartinsz](https://github.com/vmartinsz)
