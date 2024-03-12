@@ -1,0 +1,38 @@
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+}
+
+.display {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.buttons button#calculate {
+    background-color:   rgb(44, 141, 252);
+    color: white;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1667912100232-a457b313ec18?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
