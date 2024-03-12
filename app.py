@@ -13,8 +13,12 @@ def validate():
     try:
         result = eval(value)
         message = "Validação bem sucedida! O resultado é: {}".format(result)
+        
+    except ZeroDivisionError:
+        message = "Não é possível dividir por 0"
+    
     except Exception as e:
-        message = "Erro! Não foi possível calcular"
+        message = f"Erro: Não foi possível calcular"
 
     return jsonify({'message': message})
 
